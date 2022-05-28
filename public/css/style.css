@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+nav a {
+  font-family: "Vazir";
+  text-decoration: none;
+  color: #333;
+  padding: 42px;
+}
+
+#books-nav{
+  width: 28%;
+  margin: 0 auto;
+}
+
+
+#books-nav input{
+  display: block;
+  width: 98%;  padding: 10px ;  font-family: "Vazir";
+
+
+
+} 
+
+#books-nav a{
+  display: block;
+  padding: 10px ;
+
+}
+
+#books-nav a:hover{
+background-color: #333;
+color: white;
+}
