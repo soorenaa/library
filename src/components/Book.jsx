@@ -29,7 +29,7 @@ const Book = () => {
 
                 <p>
                     <button
-                        style={{ fontFamily: 'vazir' }}
+                        style={{ fontFamily: 'vazir' ,backgroundColor:'white'}}
                         onClick={() => {
                             deleteBook(book.number)
                             navigate('/books' + location.search)
