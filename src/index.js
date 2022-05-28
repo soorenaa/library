@@ -20,7 +20,7 @@ root.render(
 
           <Route path='/books' element={<Books />} >
             <Route path=':bookId' element={<Book />} />
-            <Route index element={<p style={{color:'red',fontWeight:400,}}> کتاب مورد نظر خود را انتخاب کنید</p>} />
+            <Route index element={<p style={{color:'red',fontWeight:400,fontFamily:'vazir'}}> کتاب مورد نظر خود را انتخاب کنید</p>} />
           </Route>
 
 
