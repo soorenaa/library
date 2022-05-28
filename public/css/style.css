@@ -41,3 +41,7 @@ nav a {
 background-color: #333;
 color: white;
 }
+
+#books-nav input:focus::placeholder {
+  color: transparent;
+}
